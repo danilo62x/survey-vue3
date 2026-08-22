@@ -1,0 +1,673 @@
+{
+  "brand": "Sondagem",
+  "common": {
+    "search": "Buscar",
+    "noResults": "Sin resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "create": "Crear",
+    "confirm": "Confirmar",
+    "edit": "Editar",
+    "remove": "Eliminar",
+    "add": "Añadir",
+    "all": "Todos",
+    "theme": "Tema",
+    "loading": "Cargando",
+    "actions": "Acciones",
+    "status": "Estado",
+    "viewAll": "Ver todo",
+    "optional": "opcional",
+    "copy": "Copiar",
+    "clearFilters": "Limpiar filtros",
+    "guest": "Invitado",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "time": {
+    "minutes_one": "Hace {{count}} min",
+    "minutes_other": "Hace {{count}} min",
+    "hours_one": "Hace {{count}} h",
+    "hours_other": "Hace {{count}} h",
+    "days_one": "Hace {{count}} día",
+    "days_other": "Hace {{count}} días"
+  },
+  "nav": {
+    "home": "Inicio",
+    "templates": "Plantillas",
+    "contact": "Contacto",
+    "login": "Entrar",
+    "createForm": "Crear formulario",
+    "dashboard": "Mis formularios"
+  },
+  "appNav": {
+    "researchSection": "Investigación",
+    "audienceSection": "Público",
+    "settingsSection": "Cuenta",
+    "dashboard": "Resumen",
+    "forms": "Formularios",
+    "templates": "Plantillas",
+    "contacts": "Contactos",
+    "settings": "Configuración",
+    "notifications": "Notificaciones",
+    "collapse": "Contraer menú",
+    "logout": "Salir",
+    "viewSite": "Ver el sitio público",
+    "weekTitle": "Últimos 7 días",
+    "openForms": "Abrir formularios",
+    "weekDesc_one": "{{count}} respuesta recibida",
+    "weekDesc_other": "{{count}} respuestas recibidas"
+  },
+  "notifications": {
+    "newResponse": "Nueva respuesta en {{name}}",
+    "partial": "Respuesta parcial en {{name}}"
+  },
+  "auth": {
+    "loginTitle": "Entrar en Sondagem",
+    "loginSubtitle": "Arma formularios, define la lógica y lee los resultados.",
+    "registerTitle": "Crear cuenta",
+    "registerSubtitle": "Empieza a preguntar hoy y lee las respuestas mañana.",
+    "email": "Correo",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "organization": "Organización",
+    "remember": "Mantener la sesión",
+    "forgot": "Olvidé la contraseña",
+    "loginCta": "Entrar",
+    "registerCta": "Crear cuenta",
+    "loggingIn": "Entrando…",
+    "noAccount": "¿Todavía no tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "loginLink": "Entrar",
+    "loginError": "Escribe el correo y la contraseña.",
+    "loginSuccess": "Bienvenida de vuelta",
+    "registerSuccess": "Cuenta creada",
+    "demoTitle": "Cuenta de demostración",
+    "demoHint": "Autenticación ficticia: cualquier correo y contraseña entran.",
+    "terms": "Acepto los términos de uso y la política de privacidad."
+  },
+  "validation": {
+    "required": "Esta pregunta es obligatoria",
+    "email": "Correo inválido",
+    "number": "Escribe un número",
+    "min": "El valor mínimo es {{min}}",
+    "max": "El valor máximo es {{max}}",
+    "date": "Fecha inválida",
+    "matrix": "Responde todas las filas",
+    "minChars": "Escribe al menos {{count}} caracteres"
+  },
+  "statuses": {
+    "rascunho": "Borrador",
+    "publicado": "Publicado",
+    "encerrado": "Cerrado"
+  },
+  "sources": {
+    "link": "Enlace",
+    "email": "Correo",
+    "qr": "QR",
+    "incorporado": "Incrustado"
+  },
+  "questionTypes": {
+    "texto-curto": "Texto corto",
+    "texto-longo": "Texto largo",
+    "escolha-unica": "Opción única",
+    "multipla-escolha": "Opción múltiple",
+    "escala": "Escala",
+    "nps": "NPS",
+    "data": "Fecha",
+    "email": "Correo",
+    "numero": "Número",
+    "matriz": "Matriz"
+  },
+  "questionTypeHints": {
+    "texto-curto": "Una línea: nombre, empresa, ciudad.",
+    "texto-longo": "Espacio abierto para el relato completo.",
+    "escolha-unica": "Una opción entre varias.",
+    "multipla-escolha": "Tantas opciones como quiera la persona.",
+    "escala": "Nota del mínimo al máximo, con etiquetas.",
+    "nps": "De 0 a 10, con el cálculo ya hecho.",
+    "data": "Día, mes y año en el selector del navegador.",
+    "email": "Validado antes de avanzar.",
+    "numero": "Un entero entre el mínimo y el máximo.",
+    "matriz": "Varias filas evaluadas en las mismas columnas."
+  },
+  "home": {
+    "hero": {
+      "badge": "{{total}} respuestas ya recogidas en la demostración",
+      "title": "Pregunta de una forma que la gente termina de responder",
+      "subtitle": "Una pregunta a la vez, lógica que salta lo que no aplica y el gráfico correcto para cada tipo de respuesta.",
+      "tryForm": "Responder un formulario",
+      "seeTemplates": "Ver las plantillas",
+      "statForms": "Formularios",
+      "statResponses": "Respuestas",
+      "statTypes": "Tipos de pregunta",
+      "previewEyebrow": "Formulario destacado",
+      "previewFallback": "Tu primer formulario",
+      "previewProgress": "La barra cuenta solo las preguntas que la lógica deja en el camino."
+    },
+    "types": {
+      "eyebrow": "Qué se puede preguntar",
+      "title": "Diez tipos de pregunta, cada uno con su gráfico",
+      "subtitle": "El tipo elegido en el constructor decide cómo se ve la pregunta y cómo se lee el resultado después."
+    },
+    "steps": {
+      "eyebrow": "Cómo funciona",
+      "title": "Del borrador al informe en tres pasos",
+      "build": {
+        "title": "Arma las preguntas",
+        "desc": "Arrastra para reordenar, edita en el panel lateral y mira la vista previa en vivo mientras escribes."
+      },
+      "share": {
+        "title": "Publica y comparte",
+        "desc": "Enlace público, código para escanear y fragmento para incrustar en tu sitio."
+      },
+      "read": {
+        "title": "Lee los resultados",
+        "desc": "Resumen con un gráfico por tipo, respuestas individuales y exportación en CSV."
+      }
+    },
+    "templates": {
+      "eyebrow": "Plantillas listas",
+      "title": "Empieza desde una plantilla probada",
+      "subtitle": "Cinco puntos de partida con las preguntas ya escritas — todo se puede cambiar después.",
+      "all": "Ver todas las plantillas"
+    },
+    "testimonials": {
+      "title": "Quién ya lo usa",
+      "one": "Cambiamos la hoja de cálculo por un formulario con lógica. La tasa de finalización pasó de 41% a 78% en la primera semana.",
+      "two": "El resumen por tipo de pregunta terminó con el trabajo de armar gráficos a mano después de cada ronda.",
+      "three": "Publicar, mandar el enlace y leer el NPS calculado el mismo día cambió el ritmo de nuestra investigación."
+    },
+    "plans": {
+      "eyebrow": "Planes",
+      "title": "Elige por volumen de respuestas",
+      "subtitle": "Todos los planes incluyen lógica condicional, exportación en CSV y los diez tipos de pregunta.",
+      "featured": "El más elegido",
+      "free": "Gratis",
+      "perMonth": "/mes",
+      "cta": "Empezar ahora",
+      "names": {
+        "gratuito": "Gratuito",
+        "profissional": "Profesional",
+        "empresa": "Empresa"
+      },
+      "descs": {
+        "gratuito": "Para validar una idea con pocas respuestas.",
+        "profissional": "Para quien investiga cada mes y necesita marca propia.",
+        "empresa": "Para equipos con muchos formularios funcionando a la vez."
+      },
+      "features": {
+        "gratuito": {
+          "a": "1 formulario activo",
+          "b": "100 respuestas al mes",
+          "c": "Exportación en CSV"
+        },
+        "profissional": {
+          "a": "Formularios ilimitados",
+          "b": "5.000 respuestas al mes",
+          "c": "Marca y dominio propios",
+          "d": "Informe por período"
+        },
+        "empresa": {
+          "a": "Respuestas ilimitadas",
+          "b": "Varios equipos y permisos",
+          "c": "Integración con hoja de cálculo",
+          "d": "Soporte con plazo acordado"
+        }
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "logic": {
+        "q": "¿La lógica condicional funciona de verdad en el formulario público?",
+        "a": "Sí. Las reglas deciden cuál es la siguiente pregunta, esconden las que no aplican y la barra de progreso cuenta solo las preguntas alcanzables."
+      },
+      "export": {
+        "q": "¿Puedo llevar las respuestas a una hoja de cálculo?",
+        "a": "El botón Exportar genera un CSV en el propio navegador, con una columna por pregunta y las columnas de fecha, duración, origen y contacto."
+      },
+      "brand": {
+        "q": "¿Puedo usar mi marca?",
+        "a": "La pestaña Apariencia cambia el color de acento, la portada y el mensaje final de cada formulario."
+      },
+      "limits": {
+        "q": "¿Hay límite de preguntas?",
+        "a": "No. El constructor acepta todas las preguntas que quieras y la lista arrastrable sigue siendo fácil de reordenar."
+      },
+      "privacy": {
+        "q": "¿Dónde quedan los datos de esta demostración?",
+        "a": "Todo corre en el navegador: los formularios y las respuestas quedan en el almacenamiento local y se pueden restaurar desde la configuración."
+      }
+    }
+  },
+  "landing": {
+    "footer": {
+      "tagline": "Constructor de formularios y encuestas con lógica condicional, resultados calculados y exportación en CSV.",
+      "rights": "Todos los derechos reservados.",
+      "docs": "Documentación",
+      "help": "Ayuda",
+      "privacy": "Privacidad"
+    }
+  },
+  "templates": {
+    "eyebrow": "Plantillas",
+    "publicTitle": "Plantillas por objetivo",
+    "publicSubtitle": "Elige el objetivo, mira las preguntas tal como las verá el público y empieza desde ahí.",
+    "libraryTitle": "Plantillas",
+    "librarySubtitle": "Crea un formulario nuevo a partir de una plantilla — las preguntas vienen incluidas y se pueden editar.",
+    "searchPlaceholder": "Buscar por nombre u objetivo",
+    "preview": "Ver preguntas",
+    "use": "Usar esta plantilla",
+    "useTemplate": "Usar esta plantilla",
+    "created": "Formulario creado a partir de {{name}}",
+    "emptyTitle": "Ninguna plantilla encontrada",
+    "emptyDesc": "Prueba otro término o limpia la búsqueda.",
+    "ctaTitle": "¿Ninguna plantilla encaja del todo?",
+    "ctaDesc": "Crea una cuenta y arma el formulario desde cero: diez tipos de pregunta, lógica condicional y vista previa en vivo.",
+    "ctaButton": "Crear mi formulario",
+    "questionCount_one": "{{count}} pregunta",
+    "questionCount_other": "{{count}} preguntas",
+    "more_one": "y {{count}} pregunta más",
+    "more_other": "y {{count}} preguntas más"
+  },
+  "fill": {
+    "start": "Empezar",
+    "step": "Pregunta {{current}} de {{total}}",
+    "submit": "Enviar respuestas",
+    "skip": "Saltar",
+    "done": "Llegaste al final del formulario.",
+    "questionsCount": "Preguntas",
+    "estimated": "Tiempo estimado",
+    "minutes": "{{count}} min",
+    "oneAtATime": "Formato",
+    "oneAtATimeValue": "Una a la vez",
+    "scaleLow": "Muy bajo",
+    "scaleHigh": "Muy alto",
+    "npsLow": "De ninguna manera",
+    "npsHigh": "Sin duda",
+    "logicHint": "Algunas preguntas cambian según tus respuestas: la lógica puede saltar pasos o revelar una pregunta nueva.",
+    "placeholders": {
+      "shortText": "Escribe tu respuesta",
+      "longText": "Escríbelo con tus palabras",
+      "number": "Escribe un número",
+      "numberRange": "Entre {{min}} y {{max}}"
+    },
+    "notFoundTitle": "Formulario no encontrado",
+    "notFoundDesc": "La dirección puede haber cambiado o el formulario fue eliminado.",
+    "backHome": "Ir al inicio",
+    "closedTitle": "Este formulario está cerrado",
+    "closedDesc": "Ya no se aceptan respuestas. Gracias por el interés.",
+    "draftTitle": "Este formulario todavía es un borrador",
+    "draftDesc": "Todavía no fue publicado por quien lo creó.",
+    "seeTemplates": "Ver plantillas listas"
+  },
+  "thanks": {
+    "title": "Respuesta enviada",
+    "generic": "¡Gracias por responder!",
+    "again": "Responder de nuevo",
+    "home": "Ir al inicio",
+    "summary": "Lo que respondiste",
+    "summaryDesc": "Aquí aparecen solo las preguntas que la lógica dejó en tu camino."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Habla con nosotros",
+    "subtitle": "Una duda sobre planes, una encuesta grande por lanzar o un problema en el formulario: escribe y respondemos.",
+    "channels": {
+      "email": "Correo",
+      "chat": "Chat con soporte",
+      "sla": "Plazo de respuesta",
+      "status": "Página de estado"
+    },
+    "subjects": {
+      "demo": "Quiero una demostración",
+      "plan": "Duda sobre planes",
+      "support": "Problema en un formulario",
+      "other": "Otro asunto"
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Selecciona (opcional)",
+      "subjectHint": "Ayuda a enviar el mensaje a la persona correcta.",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos qué necesitas y para cuándo.",
+      "messageHint": "Cuanto más concreto, más rápida la respuesta.",
+      "submit": "Enviar mensaje"
+    },
+    "success": "Mensaje enviado. Respondemos en un día hábil.",
+    "tipTitle": "Antes de enviar",
+    "tipDesc": "Si la duda es sobre un formulario específico, manda también el enlace público."
+  },
+  "dashboard": {
+    "title": "Resumen",
+    "subtitle": "Lo que recogieron tus encuestas en los últimos días.",
+    "kpi": {
+      "month": "Respuestas del mes",
+      "monthHint": "{{total}} respuestas en total",
+      "completion": "Tasa de finalización",
+      "completionHint": "Finalizadas dividido por el total",
+      "time": "Tiempo medio",
+      "timeHint": "Del inicio al envío",
+      "nps": "NPS general",
+      "npsHint_one": "Calculado sobre {{count}} nota",
+      "npsHint_other": "Calculado sobre {{count}} notas"
+    },
+    "charts": {
+      "perDay": "Respuestas por día",
+      "lastDays": "Últimos {{count}} días",
+      "responsesSeries": "Respuestas"
+    },
+    "sources": "Origen de las respuestas",
+    "sourcesHint": "De dónde vino cada respuesta recibida.",
+    "topForms": "Formularios más respondidos",
+    "latest": "Últimas respuestas",
+    "statusTitle": "Situación de cada formulario",
+    "emptyTitle": "Todavía no hay nada",
+    "emptyDesc": "Publica un formulario y comparte el enlace para empezar a recibir respuestas."
+  },
+  "forms": {
+    "title": "Formularios",
+    "subtitle": "Busca, filtra por estado, duplica, cierra o copia el enlace público.",
+    "new": "Nuevo formulario",
+    "newTitle": "Nuevo formulario",
+    "newSubtitle": "Empieza en blanco o desde una plantilla lista.",
+    "newDescription": "Formulario recién creado — escribe la descripción en la pestaña Apariencia.",
+    "formTitle": "Título",
+    "formTitlePlaceholder": "Ej.: Satisfacción con la atención",
+    "startFrom": "Empezar desde",
+    "startFromHint": "Elegir una plantilla ya trae las preguntas escritas.",
+    "blank": "Formulario en blanco",
+    "created": "Formulario creado",
+    "form": "Formulario",
+    "responses": "Respuestas",
+    "completion": "Finalización",
+    "avgTime": "Tiempo medio",
+    "nps": "NPS",
+    "lastResponse": "Última respuesta",
+    "searchPlaceholder": "Buscar por título o descripción",
+    "edit": "Editar",
+    "results": "Respuestas",
+    "open": "Abrir",
+    "copyLink": "Copiar enlace público",
+    "linkCopied": "Enlace copiado",
+    "duplicate": "Duplicar",
+    "duplicated": "Formulario duplicado",
+    "publish": "Publicar",
+    "published": "Formulario publicado",
+    "close": "Cerrar",
+    "closed": "Formulario cerrado",
+    "removeTitle": "¿Eliminar el formulario?",
+    "removeDesc": "Las respuestas recibidas también se eliminan. No se puede deshacer.",
+    "removed": "Formulario eliminado",
+    "viewTable": "Ver en tabla",
+    "viewCards": "Ver en tarjetas",
+    "emptyTitle": "Ningún formulario encontrado",
+    "emptyDesc": "Ajusta la búsqueda o cambia el filtro de estado."
+  },
+  "builder": {
+    "title": "Constructor",
+    "subtitle": "Los cambios valen al instante para quien abra el enlace público.",
+    "autosave": "Los cambios se guardan automáticamente.",
+    "tabs": {
+      "questions": "Preguntas",
+      "logic": "Lógica",
+      "appearance": "Apariencia",
+      "share": "Compartir"
+    },
+    "addQuestion": "Añadir pregunta",
+    "questionAdded": "Pregunta añadida",
+    "questionRemoved": "Pregunta eliminada",
+    "questionDuplicated": "Pregunta duplicada",
+    "removeQuestion": "Eliminar pregunta",
+    "duplicateQuestion": "Duplicar pregunta",
+    "moveUp": "Mover arriba",
+    "moveDown": "Mover abajo",
+    "dragHint": "Arrastra desde el asa para reordenar; las flechas hacen lo mismo con el teclado.",
+    "conditional": "condicional",
+    "untitledQuestion": "Pregunta sin título",
+    "editorTitle": "Editar pregunta",
+    "previewTitle": "Vista previa",
+    "previewLive": "en vivo",
+    "previewHint": "Así es exactamente como se ve la pregunta en el formulario público.",
+    "selectTitle": "Selecciona una pregunta",
+    "selectDesc": "Haz clic en un elemento de la lista para editar el enunciado, la ayuda y las opciones.",
+    "emptyTitle": "Todavía no hay preguntas",
+    "emptyDesc": "Añade la primera pregunta para empezar a armar el formulario.",
+    "addOption": "Añadir opción",
+    "newOption": "Opción {{index}}",
+    "addRow": "Añadir fila",
+    "addColumn": "Añadir columna",
+    "newRow": "Nueva fila",
+    "newColumn": "Nueva columna",
+    "openPublic": "Verlo como lo ve el público",
+    "notFoundTitle": "Formulario no encontrado",
+    "notFoundDesc": "Puede haber sido eliminado o la dirección está mal.",
+    "backToForms": "Volver a los formularios",
+    "fields": {
+      "type": "Tipo de pregunta",
+      "title": "Enunciado",
+      "titlePlaceholder": "¿Qué quieres preguntar?",
+      "help": "Texto de ayuda",
+      "helpPlaceholder": "Una línea que explica cómo responder",
+      "required": "Respuesta obligatoria",
+      "requiredHint": "Sin respuesta, la persona no avanza.",
+      "options": "Opciones",
+      "min": "Mínimo",
+      "max": "Máximo",
+      "rows": "Filas",
+      "columns": "Columnas"
+    },
+    "questionsCount_one": "{{count}} pregunta",
+    "questionsCount_other": "{{count}} preguntas"
+  },
+  "logic": {
+    "title": "Reglas de lógica",
+    "subtitle": "Cada regla observa la respuesta de una pregunta y decide qué pasa con otra.",
+    "addRule": "Añadir regla",
+    "removeRule": "Eliminar regla",
+    "ruleRemoved": "Regla eliminada",
+    "ifAnswer": "Si la respuesta de",
+    "operator": "es",
+    "value": "Valor",
+    "valuePlaceholder": "Escribe el valor",
+    "choose": "Elige una opción",
+    "action": "Entonces",
+    "target": "La pregunta",
+    "sentence": "Si “{{question}}” {{operator}} “{{value}}”, entonces {{action}}: “{{target}}”.",
+    "operators": {
+      "igual": "Es igual a",
+      "diferente": "Es distinta de",
+      "maior": "Es mayor que",
+      "menor": "Es menor que",
+      "contem": "Contiene"
+    },
+    "actions": {
+      "pular-para": "Saltar a",
+      "mostrar": "Mostrar",
+      "esconder": "Ocultar"
+    },
+    "actionHints": {
+      "pular-para": "Al responder, el formulario va directo a la pregunta elegida.",
+      "mostrar": "La pregunta queda oculta hasta que la regla se cumpla.",
+      "esconder": "La pregunta sale del camino cuando la regla se cumple."
+    },
+    "emptyTitle": "Todavía no hay reglas",
+    "emptyDesc": "Sin reglas, el formulario sigue el orden de la lista de preguntas."
+  },
+  "appearance": {
+    "title": "Apariencia del formulario",
+    "subtitle": "Color, portada y el mensaje que aparece después del envío.",
+    "formTitle": "Título",
+    "description": "Descripción",
+    "color": "Color de acento",
+    "customColor": "Color personalizado",
+    "cover": "Portada",
+    "thankYou": "Mensaje de agradecimiento",
+    "thankYouHint": "Aparece en la pantalla final, después del envío.",
+    "previewTitle": "Cómo queda",
+    "previewHint": "La portada y el color valen para la pantalla de apertura y para los botones."
+  },
+  "share": {
+    "linkTitle": "Enlace público",
+    "linkDesc": "Cualquiera con esta dirección puede responder mientras el formulario esté publicado.",
+    "copied": "Copiado al portapapeles",
+    "copiedShort": "Copiado",
+    "embedTitle": "Incrustar en tu sitio",
+    "embedDesc": "Pega este fragmento donde debe aparecer el formulario.",
+    "copyEmbed": "Copiar el código",
+    "qrTitle": "Código para escanear",
+    "qrDesc": "Útil en un cartel, una credencial o al final de un evento.",
+    "openForm": "Abrir el formulario"
+  },
+  "results": {
+    "title": "Respuestas",
+    "tabs": {
+      "summary": "Resumen",
+      "individual": "Individuales"
+    },
+    "export": "Exportar CSV",
+    "kpi": {
+      "total": "Respuestas",
+      "totalHint": "{{views}} aperturas del formulario",
+      "completion": "Tasa de finalización",
+      "time": "Tiempo medio",
+      "timeHint": "Del inicio al envío",
+      "nps": "NPS",
+      "npsNone": "Sin pregunta de NPS en este formulario",
+      "npsHint_one": "Calculado sobre {{count}} nota",
+      "npsHint_other": "Calculado sobre {{count}} notas",
+      "completionHint_one": "{{count}} respuesta finalizada",
+      "completionHint_other": "{{count}} respuestas finalizadas"
+    },
+    "questionNumber": "Pregunta {{index}}",
+    "noAnswers": "Todavía nadie respondió esta pregunta.",
+    "average": "Media",
+    "averageValue": "Valor medio",
+    "range": "Rango",
+    "answers": "Respuestas",
+    "topTerms": "Términos frecuentes",
+    "samples": "Muestras",
+    "matrixRow": "Fila",
+    "nps": "NPS",
+    "npsScore": "puntos",
+    "npsFormula": "{{promoters}}% de promotores menos {{detractors}}% de detractores.",
+    "promoters": "Promotores",
+    "passives": "Neutros",
+    "detractors": "Detractores",
+    "respondent": "Quién respondió",
+    "anonymous": "Anónimo",
+    "date": "Fecha",
+    "source": "Origen",
+    "duration": "Duración",
+    "status": "Situación",
+    "completed": "Finalizada",
+    "partial": "Parcial",
+    "view": "Ver",
+    "responseTitle": "Respuesta n.º {{id}}",
+    "skipped": "Saltada",
+    "hiddenByLogic": "Oculta por la lógica",
+    "searchPlaceholder": "Buscar en el texto de las respuestas o en el contacto",
+    "emptyTitle": "Todavía no hay respuestas",
+    "emptyDesc": "Publica el formulario y comparte el enlace para empezar a recibir respuestas.",
+    "emptyFilterTitle": "Nada con estos filtros",
+    "emptyFilterDesc": "Cambia el origen, la situación o limpia la búsqueda.",
+    "csv": {
+      "id": "ID",
+      "at": "Fecha",
+      "duration": "Duración (s)",
+      "completed": "Finalizada",
+      "source": "Origen",
+      "contact": "Contacto"
+    },
+    "skippedCount_one": "{{count}} la saltó",
+    "skippedCount_other": "{{count}} la saltaron",
+    "exported_one": "{{count}} respuesta exportada",
+    "exported_other": "{{count}} respuestas exportadas",
+    "noSkips": "nadie la saltó"
+  },
+  "contacts": {
+    "title": "Contactos",
+    "searchPlaceholder": "Buscar por nombre o correo",
+    "person": "Persona",
+    "tags": "Etiquetas",
+    "tag": "Etiqueta",
+    "tagsPlaceholder": "cliente, promotor",
+    "tagsHint": "Separa las etiquetas con comas.",
+    "origin": "Origen",
+    "responses": "Respuestas",
+    "score": "Nota",
+    "lastAt": "Última respuesta",
+    "editTags": "Editar etiquetas",
+    "sendEmail": "Enviar correo",
+    "saved": "Etiquetas actualizadas",
+    "removed": "Contacto eliminado",
+    "emptyTitle": "Ningún contacto encontrado",
+    "emptyDesc": "Ajusta la búsqueda o cambia el filtro de etiqueta.",
+    "subtitle_one": "{{count}} persona que ya respondió algún formulario.",
+    "subtitle_other": "{{count}} personas que ya respondieron algún formulario."
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "Perfil, organización, notificaciones y preferencias de tema e idioma.",
+    "saved": "Preferencia guardada",
+    "tabs": {
+      "profile": "Perfil",
+      "org": "Organización",
+      "notifications": "Notificaciones",
+      "appearance": "Apariencia"
+    },
+    "profile": {
+      "title": "Datos del perfil",
+      "name": "Nombre",
+      "email": "Correo",
+      "role": "Función",
+      "saved": "Perfil actualizado"
+    },
+    "org": {
+      "title": "Datos de la organización",
+      "name": "Nombre",
+      "domain": "Dominio de los formularios",
+      "domainHint": "Es la dirección que aparece en el enlace público de cada formulario.",
+      "saved": "Organización actualizada"
+    },
+    "notifications": {
+      "title": "Cuándo avisar",
+      "response": "En cada respuesta",
+      "responseDesc": "Un aviso apenas alguien termine de responder.",
+      "weekly": "Resumen semanal",
+      "weeklyDesc": "Cada lunes, con el número de respuestas y la tasa de finalización.",
+      "closing": "Formulario por cerrar",
+      "closingDesc": "Un recordatorio tres días antes de la fecha de cierre."
+    },
+    "appearance": {
+      "dark": "Tema oscuro",
+      "darkDesc": "Vale para el sitio público y para el área con sesión iniciada.",
+      "language": "Idioma",
+      "languageHint": "Cambia la interfaz. El texto de las preguntas queda como fue escrito."
+    },
+    "reset": {
+      "title": "Restaurar los datos de demostración",
+      "desc": "Devuelve formularios, respuestas, contactos y plantillas a su estado original.",
+      "action": "Restaurar",
+      "done": "Datos de demostración restaurados"
+    }
+  },
+  "cookie": {
+    "title": "Usamos cookies",
+    "desc": "Usamos cookies para recordar tus preferencias de tema e idioma.",
+    "policy": "Política de privacidad",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "desc": "La dirección no existe o la página fue movida.",
+    "back": "Volver a los formularios",
+    "home": "Ir al inicio"
+  }
+}

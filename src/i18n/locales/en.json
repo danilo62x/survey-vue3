@@ -1,0 +1,673 @@
+{
+  "brand": "Sondagem",
+  "common": {
+    "search": "Search",
+    "noResults": "No results",
+    "previous": "Previous",
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "create": "Create",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "remove": "Delete",
+    "add": "Add",
+    "all": "All",
+    "theme": "Theme",
+    "loading": "Loading",
+    "actions": "Actions",
+    "status": "Status",
+    "viewAll": "View all",
+    "optional": "optional",
+    "copy": "Copy",
+    "clearFilters": "Clear filters",
+    "guest": "Guest",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "time": {
+    "minutes_one": "{{count}} min ago",
+    "minutes_other": "{{count}} min ago",
+    "hours_one": "{{count}} h ago",
+    "hours_other": "{{count}} h ago",
+    "days_one": "{{count}} day ago",
+    "days_other": "{{count}} days ago"
+  },
+  "nav": {
+    "home": "Home",
+    "templates": "Templates",
+    "contact": "Contact",
+    "login": "Sign in",
+    "createForm": "Create form",
+    "dashboard": "My forms"
+  },
+  "appNav": {
+    "researchSection": "Research",
+    "audienceSection": "Audience",
+    "settingsSection": "Account",
+    "dashboard": "Overview",
+    "forms": "Forms",
+    "templates": "Templates",
+    "contacts": "Contacts",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "collapse": "Collapse menu",
+    "logout": "Sign out",
+    "viewSite": "View public site",
+    "weekTitle": "Last 7 days",
+    "openForms": "Open forms",
+    "weekDesc_one": "{{count}} response received",
+    "weekDesc_other": "{{count}} responses received"
+  },
+  "notifications": {
+    "newResponse": "New response on {{name}}",
+    "partial": "Partial response on {{name}}"
+  },
+  "auth": {
+    "loginTitle": "Sign in to Sondagem",
+    "loginSubtitle": "Build forms, set the logic and read the results.",
+    "registerTitle": "Create account",
+    "registerSubtitle": "Start asking today and read the answers tomorrow.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "organization": "Organization",
+    "remember": "Keep me signed in",
+    "forgot": "Forgot password",
+    "loginCta": "Sign in",
+    "registerCta": "Create account",
+    "loggingIn": "Signing in…",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Sign in",
+    "loginError": "Enter email and password.",
+    "loginSuccess": "Welcome back",
+    "registerSuccess": "Account created",
+    "demoTitle": "Demo account",
+    "demoHint": "Fake authentication: any email and password get you in.",
+    "terms": "I accept the terms of use and the privacy policy."
+  },
+  "validation": {
+    "required": "This question is required",
+    "email": "Invalid email",
+    "number": "Enter a number",
+    "min": "The minimum value is {{min}}",
+    "max": "The maximum value is {{max}}",
+    "date": "Invalid date",
+    "matrix": "Answer every row",
+    "minChars": "Write at least {{count}} characters"
+  },
+  "statuses": {
+    "rascunho": "Draft",
+    "publicado": "Published",
+    "encerrado": "Closed"
+  },
+  "sources": {
+    "link": "Link",
+    "email": "Email",
+    "qr": "QR",
+    "incorporado": "Embedded"
+  },
+  "questionTypes": {
+    "texto-curto": "Short text",
+    "texto-longo": "Long text",
+    "escolha-unica": "Single choice",
+    "multipla-escolha": "Multiple choice",
+    "escala": "Scale",
+    "nps": "NPS",
+    "data": "Date",
+    "email": "Email",
+    "numero": "Number",
+    "matriz": "Matrix"
+  },
+  "questionTypeHints": {
+    "texto-curto": "One line: name, company, city.",
+    "texto-longo": "Open space for the whole story.",
+    "escolha-unica": "One option among several.",
+    "multipla-escolha": "As many options as they want.",
+    "escala": "A rating from minimum to maximum, with labels.",
+    "nps": "From 0 to 10, with the score already computed.",
+    "data": "Day, month and year in the browser picker.",
+    "email": "Validated before moving on.",
+    "numero": "An integer between the minimum and the maximum.",
+    "matriz": "Several rows rated on the same columns."
+  },
+  "home": {
+    "hero": {
+      "badge": "{{total}} responses already collected in this demo",
+      "title": "Ask in a way that people actually finish",
+      "subtitle": "One question at a time, logic that skips what makes no sense and the right chart for every kind of answer.",
+      "tryForm": "Answer a form",
+      "seeTemplates": "See the templates",
+      "statForms": "Forms",
+      "statResponses": "Responses",
+      "statTypes": "Question types",
+      "previewEyebrow": "Featured form",
+      "previewFallback": "Your first form",
+      "previewProgress": "The bar counts only the questions the logic keeps on the path."
+    },
+    "types": {
+      "eyebrow": "What you can ask",
+      "title": "Ten question types, each with the right chart",
+      "subtitle": "The type you pick in the builder decides how the question looks to respondents and how the result is read later."
+    },
+    "steps": {
+      "eyebrow": "How it works",
+      "title": "From draft to report in three steps",
+      "build": {
+        "title": "Build the questions",
+        "desc": "Drag to reorder, edit in the side panel and watch the live preview as you write."
+      },
+      "share": {
+        "title": "Publish and share",
+        "desc": "Public link, scannable code and a snippet to embed on your site."
+      },
+      "read": {
+        "title": "Read the results",
+        "desc": "Summary with one chart per type, individual responses and CSV export."
+      }
+    },
+    "templates": {
+      "eyebrow": "Ready-made templates",
+      "title": "Start from a proven template",
+      "subtitle": "Five starting points with the questions already written — you can change everything afterwards.",
+      "all": "See all templates"
+    },
+    "testimonials": {
+      "title": "Who already uses it",
+      "one": "We swapped the spreadsheet for a form with logic. Completion went from 41% to 78% in the first week.",
+      "two": "The summary per question type ended the chore of building charts by hand after every round.",
+      "three": "Publishing, sending the link and reading the computed NPS the same day changed the pace of our research."
+    },
+    "plans": {
+      "eyebrow": "Plans",
+      "title": "Choose by response volume",
+      "subtitle": "Every plan includes conditional logic, CSV export and all ten question types.",
+      "featured": "Most chosen",
+      "free": "Free",
+      "perMonth": "/month",
+      "cta": "Get started",
+      "names": {
+        "gratuito": "Free",
+        "profissional": "Professional",
+        "empresa": "Business"
+      },
+      "descs": {
+        "gratuito": "To validate an idea with a handful of responses.",
+        "profissional": "For teams running research every month that need their own brand.",
+        "empresa": "For teams with many forms running at the same time."
+      },
+      "features": {
+        "gratuito": {
+          "a": "1 active form",
+          "b": "100 responses per month",
+          "c": "CSV export"
+        },
+        "profissional": {
+          "a": "Unlimited forms",
+          "b": "5,000 responses per month",
+          "c": "Own brand and domain",
+          "d": "Report by period"
+        },
+        "empresa": {
+          "a": "Unlimited responses",
+          "b": "Multiple teams and permissions",
+          "c": "Spreadsheet integration",
+          "d": "Support with agreed SLA"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "logic": {
+        "q": "Does conditional logic really run on the public form?",
+        "a": "Yes. The rules decide the next question, hide the ones that make no sense and the progress bar counts only reachable questions."
+      },
+      "export": {
+        "q": "Can I take the responses to a spreadsheet?",
+        "a": "The Export button builds a CSV in the browser itself, with one column per question plus date, duration, source and contact columns."
+      },
+      "brand": {
+        "q": "Can I use my own brand?",
+        "a": "The Appearance tab changes the accent color, the cover and the closing message of each form."
+      },
+      "limits": {
+        "q": "Is there a limit of questions?",
+        "a": "No. The builder takes as many questions as you want, and the draggable list stays easy to reorder."
+      },
+      "privacy": {
+        "q": "Where does this demo keep its data?",
+        "a": "Everything runs in the browser: forms and responses live in local storage and can be restored from settings."
+      }
+    }
+  },
+  "landing": {
+    "footer": {
+      "tagline": "Form and survey builder with conditional logic, computed results and CSV export.",
+      "rights": "All rights reserved.",
+      "docs": "Documentation",
+      "help": "Help",
+      "privacy": "Privacy"
+    }
+  },
+  "templates": {
+    "eyebrow": "Templates",
+    "publicTitle": "Templates by goal",
+    "publicSubtitle": "Pick the goal, see the questions exactly as the public will see them and start from there.",
+    "libraryTitle": "Templates",
+    "librarySubtitle": "Create a new form from a template — the questions come along and can be edited.",
+    "searchPlaceholder": "Search by name or goal",
+    "preview": "See questions",
+    "use": "Use this template",
+    "useTemplate": "Use this template",
+    "created": "Form created from {{name}}",
+    "emptyTitle": "No template found",
+    "emptyDesc": "Try another term or clear the search.",
+    "ctaTitle": "No template fits exactly?",
+    "ctaDesc": "Create an account and build the form from scratch: ten question types, conditional logic and live preview.",
+    "ctaButton": "Build my form",
+    "questionCount_one": "{{count}} question",
+    "questionCount_other": "{{count}} questions",
+    "more_one": "and {{count}} more question",
+    "more_other": "and {{count}} more questions"
+  },
+  "fill": {
+    "start": "Start",
+    "step": "Question {{current}} of {{total}}",
+    "submit": "Submit answers",
+    "skip": "Skip",
+    "done": "You reached the end of the form.",
+    "questionsCount": "Questions",
+    "estimated": "Estimated time",
+    "minutes": "{{count}} min",
+    "oneAtATime": "Format",
+    "oneAtATimeValue": "One at a time",
+    "scaleLow": "Very low",
+    "scaleHigh": "Very high",
+    "npsLow": "Not at all",
+    "npsHigh": "Definitely",
+    "logicHint": "Some questions change with your answers: the logic can skip steps or reveal a new question.",
+    "placeholders": {
+      "shortText": "Write your answer",
+      "longText": "Write it in your own words",
+      "number": "Enter a number",
+      "numberRange": "Between {{min}} and {{max}}"
+    },
+    "notFoundTitle": "Form not found",
+    "notFoundDesc": "The address may have changed or the form was removed.",
+    "backHome": "Go to the home page",
+    "closedTitle": "This form is closed",
+    "closedDesc": "Responses are no longer accepted. Thanks for your interest.",
+    "draftTitle": "This form is still a draft",
+    "draftDesc": "It has not been published by its owner yet.",
+    "seeTemplates": "See ready-made templates"
+  },
+  "thanks": {
+    "title": "Response submitted",
+    "generic": "Thanks for answering!",
+    "again": "Answer again",
+    "home": "Go to the home page",
+    "summary": "What you answered",
+    "summaryDesc": "Only the questions the logic kept on your path show up here."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Talk to us",
+    "subtitle": "A question about plans, a big survey to run or a problem in a form: write and we answer.",
+    "channels": {
+      "email": "Email",
+      "chat": "Support chat",
+      "sla": "Response time",
+      "status": "Status page"
+    },
+    "subjects": {
+      "demo": "I want a demo",
+      "plan": "Question about plans",
+      "support": "Problem in a form",
+      "other": "Something else"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select (optional)",
+      "subjectHint": "Helps route the message to the right person.",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what you need and by when.",
+      "messageHint": "The more concrete, the faster the answer.",
+      "submit": "Send message"
+    },
+    "success": "Message sent. We answer within one business day.",
+    "tipTitle": "Before you send",
+    "tipDesc": "If the question is about a specific form, send the public link along."
+  },
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "What your surveys collected over the last few days.",
+    "kpi": {
+      "month": "Responses this month",
+      "monthHint": "{{total}} responses in total",
+      "completion": "Completion rate",
+      "completionHint": "Completed divided by total",
+      "time": "Average time",
+      "timeHint": "From start to submit",
+      "nps": "Overall NPS",
+      "npsHint_one": "Computed over {{count}} score",
+      "npsHint_other": "Computed over {{count}} scores"
+    },
+    "charts": {
+      "perDay": "Responses per day",
+      "lastDays": "Last {{count}} days",
+      "responsesSeries": "Responses"
+    },
+    "sources": "Response sources",
+    "sourcesHint": "Where each response came from.",
+    "topForms": "Most answered forms",
+    "latest": "Latest responses",
+    "statusTitle": "Status of each form",
+    "emptyTitle": "Nothing here yet",
+    "emptyDesc": "Publish a form and share the link to start collecting responses."
+  },
+  "forms": {
+    "title": "Forms",
+    "subtitle": "Search, filter by status, duplicate, close or copy the public link.",
+    "new": "New form",
+    "newTitle": "New form",
+    "newSubtitle": "Start blank or from a ready-made template.",
+    "newDescription": "Form just created — write the description in the Appearance tab.",
+    "formTitle": "Title",
+    "formTitlePlaceholder": "e.g. Support satisfaction",
+    "startFrom": "Start from",
+    "startFromHint": "Picking a template brings the questions already written.",
+    "blank": "Blank form",
+    "created": "Form created",
+    "form": "Form",
+    "responses": "Responses",
+    "completion": "Completion",
+    "avgTime": "Average time",
+    "nps": "NPS",
+    "lastResponse": "Last response",
+    "searchPlaceholder": "Search by title or description",
+    "edit": "Edit",
+    "results": "Responses",
+    "open": "Open",
+    "copyLink": "Copy public link",
+    "linkCopied": "Link copied",
+    "duplicate": "Duplicate",
+    "duplicated": "Form duplicated",
+    "publish": "Publish",
+    "published": "Form published",
+    "close": "Close",
+    "closed": "Form closed",
+    "removeTitle": "Delete the form?",
+    "removeDesc": "The responses received are deleted too. This cannot be undone.",
+    "removed": "Form deleted",
+    "viewTable": "Table view",
+    "viewCards": "Card view",
+    "emptyTitle": "No form found",
+    "emptyDesc": "Adjust the search or change the status filter."
+  },
+  "builder": {
+    "title": "Builder",
+    "subtitle": "Changes apply right away to anyone who opens the public link.",
+    "autosave": "Changes are saved automatically.",
+    "tabs": {
+      "questions": "Questions",
+      "logic": "Logic",
+      "appearance": "Appearance",
+      "share": "Share"
+    },
+    "addQuestion": "Add question",
+    "questionAdded": "Question added",
+    "questionRemoved": "Question removed",
+    "questionDuplicated": "Question duplicated",
+    "removeQuestion": "Remove question",
+    "duplicateQuestion": "Duplicate question",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "dragHint": "Drag by the handle to reorder; the arrows do the same from the keyboard.",
+    "conditional": "conditional",
+    "untitledQuestion": "Untitled question",
+    "editorTitle": "Edit question",
+    "previewTitle": "Preview",
+    "previewLive": "live",
+    "previewHint": "This is exactly how the question shows up on the public form.",
+    "selectTitle": "Select a question",
+    "selectDesc": "Click an item in the list to edit the wording, the help text and the options.",
+    "emptyTitle": "No questions yet",
+    "emptyDesc": "Add the first question to start building the form.",
+    "addOption": "Add option",
+    "newOption": "Option {{index}}",
+    "addRow": "Add row",
+    "addColumn": "Add column",
+    "newRow": "New row",
+    "newColumn": "New column",
+    "openPublic": "See it as the public does",
+    "notFoundTitle": "Form not found",
+    "notFoundDesc": "It may have been deleted or the address is wrong.",
+    "backToForms": "Back to forms",
+    "fields": {
+      "type": "Question type",
+      "title": "Question",
+      "titlePlaceholder": "What do you want to ask?",
+      "help": "Help text",
+      "helpPlaceholder": "One line explaining how to answer",
+      "required": "Required answer",
+      "requiredHint": "Without an answer, the person cannot move on.",
+      "options": "Options",
+      "min": "Minimum",
+      "max": "Maximum",
+      "rows": "Rows",
+      "columns": "Columns"
+    },
+    "questionsCount_one": "{{count}} question",
+    "questionsCount_other": "{{count}} questions"
+  },
+  "logic": {
+    "title": "Logic rules",
+    "subtitle": "Each rule watches the answer of one question and decides what happens to another.",
+    "addRule": "Add rule",
+    "removeRule": "Remove rule",
+    "ruleRemoved": "Rule removed",
+    "ifAnswer": "If the answer to",
+    "operator": "is",
+    "value": "Value",
+    "valuePlaceholder": "Type the value",
+    "choose": "Choose an option",
+    "action": "Then",
+    "target": "The question",
+    "sentence": "If “{{question}}” {{operator}} “{{value}}”, then {{action}}: “{{target}}”.",
+    "operators": {
+      "igual": "Is equal to",
+      "diferente": "Is different from",
+      "maior": "Is greater than",
+      "menor": "Is less than",
+      "contem": "Contains"
+    },
+    "actions": {
+      "pular-para": "Skip to",
+      "mostrar": "Show",
+      "esconder": "Hide"
+    },
+    "actionHints": {
+      "pular-para": "On answering, the form jumps straight to the chosen question.",
+      "mostrar": "The question stays hidden until the rule is satisfied.",
+      "esconder": "The question leaves the path when the rule matches."
+    },
+    "emptyTitle": "No rules yet",
+    "emptyDesc": "Without rules, the form follows the order of the question list."
+  },
+  "appearance": {
+    "title": "Form appearance",
+    "subtitle": "Color, cover and the message shown after submitting.",
+    "formTitle": "Title",
+    "description": "Description",
+    "color": "Accent color",
+    "customColor": "Custom color",
+    "cover": "Cover",
+    "thankYou": "Thank-you message",
+    "thankYouHint": "Shown on the final screen, after submitting.",
+    "previewTitle": "How it looks",
+    "previewHint": "The cover and the color apply to the opening screen and to the buttons."
+  },
+  "share": {
+    "linkTitle": "Public link",
+    "linkDesc": "Anyone with this address can answer while the form is published.",
+    "copied": "Copied to the clipboard",
+    "copiedShort": "Copied",
+    "embedTitle": "Embed on your site",
+    "embedDesc": "Paste this snippet where the form should appear.",
+    "copyEmbed": "Copy the code",
+    "qrTitle": "Scannable code",
+    "qrDesc": "Handy on a poster, a badge or at the end of an event.",
+    "openForm": "Open the form"
+  },
+  "results": {
+    "title": "Responses",
+    "tabs": {
+      "summary": "Summary",
+      "individual": "Individual"
+    },
+    "export": "Export CSV",
+    "kpi": {
+      "total": "Responses",
+      "totalHint": "{{views}} form openings",
+      "completion": "Completion rate",
+      "time": "Average time",
+      "timeHint": "From start to submit",
+      "nps": "NPS",
+      "npsNone": "No NPS question in this form",
+      "npsHint_one": "Computed over {{count}} score",
+      "npsHint_other": "Computed over {{count}} scores",
+      "completionHint_one": "{{count}} completed response",
+      "completionHint_other": "{{count}} completed responses"
+    },
+    "questionNumber": "Question {{index}}",
+    "noAnswers": "Nobody has answered this question yet.",
+    "average": "Average",
+    "averageValue": "Average value",
+    "range": "Range",
+    "answers": "Answers",
+    "topTerms": "Frequent terms",
+    "samples": "Samples",
+    "matrixRow": "Row",
+    "nps": "NPS",
+    "npsScore": "points",
+    "npsFormula": "{{promoters}}% promoters minus {{detractors}}% detractors.",
+    "promoters": "Promoters",
+    "passives": "Passives",
+    "detractors": "Detractors",
+    "respondent": "Respondent",
+    "anonymous": "Anonymous",
+    "date": "Date",
+    "source": "Source",
+    "duration": "Duration",
+    "status": "Status",
+    "completed": "Completed",
+    "partial": "Partial",
+    "view": "View",
+    "responseTitle": "Response #{{id}}",
+    "skipped": "Skipped",
+    "hiddenByLogic": "Hidden by the logic",
+    "searchPlaceholder": "Search the answer text or the contact",
+    "emptyTitle": "No responses yet",
+    "emptyDesc": "Publish the form and share the link to start collecting responses.",
+    "emptyFilterTitle": "Nothing with these filters",
+    "emptyFilterDesc": "Change the source, the status or clear the search.",
+    "csv": {
+      "id": "ID",
+      "at": "Date",
+      "duration": "Duration (s)",
+      "completed": "Completed",
+      "source": "Source",
+      "contact": "Contact"
+    },
+    "skippedCount_one": "{{count}} skipped",
+    "skippedCount_other": "{{count}} skipped",
+    "exported_one": "{{count}} response exported",
+    "exported_other": "{{count}} responses exported",
+    "noSkips": "nobody skipped"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "searchPlaceholder": "Search by name or email",
+    "person": "Person",
+    "tags": "Tags",
+    "tag": "Tag",
+    "tagsPlaceholder": "customer, promoter",
+    "tagsHint": "Separate the tags with commas.",
+    "origin": "Source",
+    "responses": "Responses",
+    "score": "Score",
+    "lastAt": "Last response",
+    "editTags": "Edit tags",
+    "sendEmail": "Send email",
+    "saved": "Tags updated",
+    "removed": "Contact removed",
+    "emptyTitle": "No contact found",
+    "emptyDesc": "Adjust the search or change the tag filter.",
+    "subtitle_one": "{{count}} person who already answered a form.",
+    "subtitle_other": "{{count}} people who already answered a form."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Profile, organization, notifications and theme and language preferences.",
+    "saved": "Preference saved",
+    "tabs": {
+      "profile": "Profile",
+      "org": "Organization",
+      "notifications": "Notifications",
+      "appearance": "Appearance"
+    },
+    "profile": {
+      "title": "Profile data",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "saved": "Profile updated"
+    },
+    "org": {
+      "title": "Organization data",
+      "name": "Name",
+      "domain": "Forms domain",
+      "domainHint": "It is the address shown in the public link of every form.",
+      "saved": "Organization updated"
+    },
+    "notifications": {
+      "title": "When to notify",
+      "response": "On every response",
+      "responseDesc": "A notice as soon as someone finishes answering.",
+      "weekly": "Weekly digest",
+      "weeklyDesc": "Every Monday, with the response count and the completion rate.",
+      "closing": "Form about to close",
+      "closingDesc": "A reminder three days before the closing date."
+    },
+    "appearance": {
+      "dark": "Dark theme",
+      "darkDesc": "Applies to the public site and to the signed-in area.",
+      "language": "Language",
+      "languageHint": "Changes the interface. Question text stays as it was written."
+    },
+    "reset": {
+      "title": "Restore the demo data",
+      "desc": "Brings forms, responses, contacts and templates back to their original state.",
+      "action": "Restore",
+      "done": "Demo data restored"
+    }
+  },
+  "cookie": {
+    "title": "We use cookies",
+    "desc": "We use cookies to remember your theme and language preferences.",
+    "policy": "Privacy policy",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The address does not exist or the page was moved.",
+    "back": "Back to forms",
+    "home": "Go to the home page"
+  }
+}
