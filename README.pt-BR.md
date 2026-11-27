@@ -6,8 +6,6 @@
 
 Um construtor de formulários com os dois lados, feito em Vue 3.5, TypeScript, Vite 6 e Tailwind CSS v4: o formulário público que a pessoa responde de verdade e a área onde ele é montado e lido. Quem responde recebe uma pergunta por vez, barra de progresso, validação embaixo do campo e lógica condicional que realmente decide qual é a próxima pergunta e quais nunca aparecem. Quem monta tem construtor com arrastar para reordenar cobrindo dez tipos de pergunta, abas de lógica, aparência e compartilhar, um resumo que escolhe o gráfico certo para cada tipo — incluindo medidor de NPS e matriz de calor —, respostas individuais em drawer e exportação CSV feita no navegador. NPS, taxa de conclusão e tempo médio são calculados, nunca gravados. Seis formulários e cento e vinte e seis respostas vêm como dados de exemplo, gerados por um PRNG determinístico que percorre o mesmo motor de lógica do formulário público, persistidos em `localStorage`, sem backend nenhum.
 
-Prévia ao vivo: https://template.dev.br/preview/survey-vue3/
-
 ## Telas incluídas
 
 14 telas, cobrindo o site público e a área autenticada:
@@ -93,11 +91,7 @@ O mesmo sistema existe em cinco tecnologias, com as mesmas telas e a mesma ident
 - Laravel 11 + Blade: https://github.com/danilo62x/survey-laravel
 - HTML estático: https://github.com/danilo62x/survey-html
 
-O catálogo completo, de templates grátis e pagos, está em https://template.dev.br
-
-## Apoie este projeto
-
-Este template é gratuito e licenciado sob MIT. Se ele te poupou tempo, você pode apoiar o trabalho com uma doação em https://template.dev.br/doar?template=survey-vue3
+Mais templates gratuitos (painéis admin, sistemas por segmento e apps Flutter): https://github.com/danilo62x?tab=repositories
 
 ## Licença
 
